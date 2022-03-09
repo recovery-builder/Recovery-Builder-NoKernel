@@ -14,13 +14,13 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://gitlab.com/OrangeFox/Manifest.git
-  MANIFEST_BRANCH: fox_9.0
-  DEVICE: rosy
-  DT_LINK: https://github.com/ElytrA8/recovery_rosy
-  DT_PATH: device/xiaomi/rosy
+  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
+  MANIFEST_BRANCH: twrp-11
+  DEVICE: k65v1_64_bsp
+  DT_LINK: https://github.com/iskandarasri03/device_vivo_k65v1_64_bsp
+  DT_PATH: device/vivo/k65v1_64_bsp
   TARGET: recoveryimage
-  TZ: Asia/Kolkata
+  TZ: Asia/Kuala Lumpur
 
 jobs:
   build:
